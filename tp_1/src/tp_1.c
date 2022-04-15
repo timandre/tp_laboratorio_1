@@ -1,13 +1,17 @@
+/*
+ ============================================================================
+ Name        : tp_1.c
+ Author      : yo
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include "bibliotecaDeFunciones.h"
-//Declaro los prototipos de las funciones que voy a usar
-//Declaro las variables que voy a utilizar
+#include <stdio.h>
+#include <stdlib.h>
 
-
-	int main(void){
-		setbuf(stdout, NULL);
-		return 0;
-
-	}
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}
